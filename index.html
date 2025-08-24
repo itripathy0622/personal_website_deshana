@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deshna Betala</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Anton&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Light blue strip at the very top -->
+  <div class="top-strip" aria-hidden="true"></div>
+
+  <!-- Decorative translucent green side rails -->
+  <div class="side-rails" aria-hidden="true"></div>
+
+  <!-- SECTION 1: HERO -->
+  <section id="hero" class="section snap" aria-label="Cover">
+    <!-- Background image handled in CSS via ::before -->
+
+    <!-- Big name sits behind the portrait -->
+    <h1 class="name-banner">
+        <span class="first">Deshna</span>
+        <span class="last">Betala</span>
+      </h1>
+
+    <!-- Center portrait (transparent PNG) -->
+    <img class="portrait" src="./deshna_pfp.png" alt="Portrait of Deshna Betala" />
+
+    <!-- Hobby icons left / right -->
+    <img class="hero-icon hero-icon--left" src="./racket.png.webp" alt="Tennis racket" />
+    <img class="hero-icon hero-icon--right" src="./Spotify.svg" alt="Spotify logo" />
+
+  </section>
+
+  <!-- SECTION 2: UM Banner + 6-image strip -->
+  <section id="um" class="section snap" aria-label="University of Michigan">
+    <div class="um-wrap">
+      <div class="um-banner reveal">
+        <div class="um-wordmark">UNIVERSITY&nbsp;OF&nbsp;MICHIGAN</div>
+      </div>
+
+      <div class="image-strip reveal" role="list">
+        <img src="./image_1.jpg" alt="Gallery image 1" role="listitem" />
+        <img src="./image_2.jpg" alt="Gallery image 2" role="listitem" />
+        <img src="./image_3.jpg" alt="Gallery image 3" role="listitem" />
+        <img src="./image_4.jpg" alt="Gallery image 4" role="listitem" />
+        <img src="./image_5.jpg" alt="Gallery image 5" role="listitem" />
+        <img src="./image_6.jpg" alt="Gallery image 6" role="listitem" />
+      </div>
+    </div>
+
+    <!-- Options bar that links to sections below -->
+    <nav class="options-bar reveal" aria-label="Quick links">
+      <a href="#experience">Experience</a>
+      <span class="dot" aria-hidden="true">•</span>
+      <a href="#skills">Skills</a>
+      <span class="dot" aria-hidden="true">•</span>
+      <a href="#contact">Contact</a>
+    </nav>
+  </section>
+
+  <!-- SECTION 3: Experience • Skills • Contact -->
+  <section id="content" class="section snap" aria-label="Sections">
+    <div class="content-wrap">
+
+      <hr class="divider" />
+
+      <h2 id="experience" class="anchor">Experience</h2>
+      <div class="cards reveal">
+        <article class="card">
+          <h3>Pharmacy Tech (Placeholder)</h3>
+          <p>Describe responsibilities, hours, and impact. Example: supported inventory, assisted with patient queries, ensured accurate labeling.</p>
+        </article>
+        <article class="card">
+          <h3>Volunteer, Community Clinic (Placeholder)</h3>
+          <p>Summarize role, team collaboration, and what was learned about patient-centered care.</p>
+        </article>
+      </div>
+
+      <hr class="divider" />
+
+      <h2 id="skills" class="anchor">Skills</h2>
+      <div class="chips reveal">
+        <span class="chip">Organic Chemistry</span>
+        <span class="chip">Biochemistry</span>
+        <span class="chip">Inability to beat Ishan at Tennis</span>
+        <span class="chip">Data Entry (Rx)</span>
+        <span class="chip">Customer Care</span>
+        <span class="chip">Lack of Backhand</span>
+      </div>
+
+      <hr class="divider" />
+
+      <h2 id="contact" class="anchor">Contact</h2>
+      <div class="contact-grid reveal">
+        <a class="contact-box" href="mailto:dbetala@umich.edu">
+          <strong>Email</strong>
+          <span>dbetala@umich.edu</span>
+        </a>
+        <a class="contact-box" href="#" target="_blank" rel="noopener">
+          <strong>LinkedIn</strong>
+          <span>linkedin.com/in/deshna</span>
+        </a>
+        <a class="contact-box" href="#" target="_blank" rel="noopener">
+          <strong>Resume (PDF)</strong>
+          <span>Download</span>
+        </a>
+      </div>
+
+      <hr class="divider" />
+    </div>
+  </section>
+
+  <!-- Light blue strip at the very bottom -->
+  <div class="bottom-strip" aria-hidden="true"></div>
+
+    <!-- index.html -->
+  <script src="main.js"></script>
+</body>
+</html>
